@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+data/*.vcf
+data/*.vcf.gz
+data/*.vcf.gz.tbi
+data/*phased_panel*
+results/confirmatory_240markers_20seeds/seed_*/
+results/real_chr22_5mb_run/
+HAPLO_CARE_CONFIRMATORY_RESULTS_20_SEEDS.zip
+HAPLO_CARE_REAL_CHR22_5MB_RESULTS.zip

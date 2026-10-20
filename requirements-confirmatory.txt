@@ -1,0 +1,2 @@
+-r requirements.txt
+msprime>=1.3
