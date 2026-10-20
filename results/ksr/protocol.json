@@ -1,0 +1,13 @@
+{
+  "region": "chr22:30000000-30999999",
+  "reference_mismatch_EAS": false,
+  "seed": 20261018,
+  "injected_switch_error": 0.08,
+  "prespecified_primary_threshold": 0.85,
+  "training_samples": 60,
+  "validation_samples": 30,
+  "test_samples": 45,
+  "n_markers": 199,
+  "truth": "published statistical phase; not independent truth",
+  "note": "KSR decision-layer experiment; not full PhaseME benchmark"
+}

@@ -1,0 +1,44 @@
+{
+  "data_source": "simplified synthetic founder-mosaic simulation (known phase truth)",
+  "n_individuals": 950,
+  "n_sites": 72,
+  "n_train_individuals": 712,
+  "n_test_individuals": 238,
+  "n_train_pairs": 14968,
+  "n_test_pairs": 5070,
+  "metrics": {
+    "population-reference-prior": {
+      "n_pairs": 5070,
+      "accuracy": 0.8796844181459567,
+      "auc": 0.9555707709381827,
+      "brier": 0.08369864648073083,
+      "log_loss": 0.2698679333638738,
+      "macro_mean_adjacent_het_pair_error": 0.12589473857257705,
+      "median_donor_adjacent_het_pair_error": 0.1111111111111111
+    },
+    "global-reference-prior": {
+      "n_pairs": 5070,
+      "accuracy": 0.6611439842209073,
+      "auc": 0.731055562492897,
+      "brier": 0.20796878089136758,
+      "log_loss": 0.5962736838652889,
+      "macro_mean_adjacent_het_pair_error": 0.34518428786144684,
+      "median_donor_adjacent_het_pair_error": 0.3333333333333333
+    },
+    "haplocare-ml-pilot": {
+      "n_pairs": 5070,
+      "accuracy": 0.8952662721893491,
+      "auc": 0.9616306556286548,
+      "brier": 0.07733494058834423,
+      "log_loss": 0.25584853789772277,
+      "macro_mean_adjacent_het_pair_error": 0.1106573896450246,
+      "median_donor_adjacent_het_pair_error": 0.09375
+    },
+    "bootstrap_difference_population_prior_minus_ml_macro_error": {
+      "point_estimate": 0.015237348927552448,
+      "ci95_low": 0.0089361550605494,
+      "ci95_high": 0.021723240802822383,
+      "unit": "absolute fraction; positive favors ML; donors resampled (not variant pairs)"
+    }
+  }
+}

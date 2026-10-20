@@ -1,0 +1,18 @@
+{
+  "analysis": "Independent-seed simulation-only confirmation of fixed primary comparison",
+  "n_independent_seeds": 20,
+  "mean_reference_graph_error_pct": 9.278251981047239,
+  "mean_ml_graph_error_pct": 8.90413706713797,
+  "mean_gain_percentage_points": 0.37411491390926904,
+  "relative_gain_pct": 4.032170226390452,
+  "gain_sd_across_seeds_pp": 0.2571519321892737,
+  "gain_ci95_t_pp": [
+    0.2537641050059707,
+    0.4944657228125674
+  ],
+  "gain_pvalue_two_sided_seed_level_ttest": 3.116559006937776e-06,
+  "positive_seed_count": 19,
+  "sign_test_pvalue_two_sided": 4.00543212890625e-05,
+  "success_under_predeclared_simulation_rule": true,
+  "caution": "Even success here is only replication under one toy demographic simulator, not externally validated phasing or established novelty."
+}

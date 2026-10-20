@@ -1,0 +1,15 @@
+{
+  "data_source": "simplified founder-mosaic synthetic simulation",
+  "n_train": 712,
+  "n_test": 238,
+  "maximum_heterozygote_skip": 3,
+  "graph_vs_adjacent": {
+    "mean_macro_improvement_adjacent_minus_graph": 0.04911345925310164,
+    "ci95_low": 0.03980516492437466,
+    "ci95_high": 0.05821303497128253,
+    "positive_favors_graph": true,
+    "ml_graph_vs_prior_graph_mean_improvement": -0.0013210612332233721,
+    "ml_graph_vs_prior_graph_ci95_low": -0.005237822874620582,
+    "ml_graph_vs_prior_graph_ci95_high": 0.0028257520533196503
+  }
+}

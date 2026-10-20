@@ -1,0 +1,73 @@
+{
+  "start": 30000000,
+  "region_bp": 5000000,
+  "n_per_group": 60,
+  "seed": 20261018,
+  "bin_bp": 5000,
+  "max_step": 3,
+  "vcf_filename": "1kGP_high_coverage_Illumina.chr22.filtered.SNV_INDEL_SV_phased_panel.vcf.gz",
+  "panel_filename": "20130606_g1k_3202_samples_ped_population.txt",
+  "n_evaluated": 45,
+  "n_total_windows": 5,
+  "mean_reference_error": 0.09603221441766926,
+  "mean_ml_error": 0.08984180005284995,
+  "mean_improvement": 0.006190414364819305,
+  "bootstrap_ci95_lower": 0.0018554281750478472,
+  "bootstrap_ci95_upper": 0.01033125988950454,
+  "per_window": [
+    {
+      "window": 1,
+      "reference_graph": 0.0787504250231309,
+      "ml_graph": 0.076936337723845,
+      "gain": 0.0018140872992858945
+    },
+    {
+      "window": 2,
+      "reference_graph": 0.05639670378399481,
+      "ml_graph": 0.05204893481727238,
+      "gain": 0.004347768966722444
+    },
+    {
+      "window": 3,
+      "reference_graph": 0.13707951072039656,
+      "ml_graph": 0.12679276692794794,
+      "gain": 0.010286743792448644
+    },
+    {
+      "window": 4,
+      "reference_graph": 0.14233925614862145,
+      "ml_graph": 0.13628904998546654,
+      "gain": 0.00605020616315493
+    },
+    {
+      "window": 5,
+      "reference_graph": 0.06559517641220254,
+      "ml_graph": 0.057141910809717915,
+      "gain": 0.008453265602484617
+    }
+  ],
+  "per_population": [
+    {
+      "population": "AFR",
+      "reference_graph": 0.11904706260752503,
+      "ml_graph": 0.11379779926050414,
+      "gain": 0.005249263347020892
+    },
+    {
+      "population": "EAS",
+      "reference_graph": 0.09446281815272912,
+      "ml_graph": 0.08288729419545912,
+      "gain": 0.011575523957269988
+    },
+    {
+      "population": "EUR",
+      "reference_graph": 0.07458676249275363,
+      "ml_graph": 0.0728403067025866,
+      "gain": 0.0017464557901670378
+    }
+  ],
+  "truth_caveat": "Published 1000 Genomes phased haplotypes are inferred statistical phase labels, NOT independently verified truth.",
+  "statistical_caveat": "Bootstrap over individuals is exploratory; population/LD and shared phasing pipeline may induce dependence.",
+  "extraction_caveat": "Sparse common SNP marker subset across each 1Mb window; not analysis of every site in 5Mb.",
+  "relatedness_caveat": "Both reported father and mother are 0; at most one per known family ID. Does not exclude all cryptic relatedness."
+}
