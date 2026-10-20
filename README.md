@@ -68,4 +68,4 @@ Compatibility: Python 3.10 or newer.
 
 ## Citation and contact
 
-This is an independent exploratory proof of concept. A software license has not been selected yet; add one before inviting reuse.
+This is an independent exploratory proof of concept. Licensed under the MIT License. See LICENSE.
